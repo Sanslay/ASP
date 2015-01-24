@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>@ViewBag.Title</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="~/Content/Site.css" />
+  <script type="text/javascript" src="~/Scripts/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+  <script type="text/javascript" src="~/Scripts/globalize/globalize.js"></script>
+  <script type="text/javascript" src="~/Scripts/globalize/cultures/globalize.culture.fr-FR.js"></script>
+  <script type="text/javascript" src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+  <script type="text/javascript" src="~/Scripts/myScripts.js"></script>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <h2>Simulateur de calcul de paie</h2>
+        </td>
+        <td style="width: 20px">
+          <img id="loading" style="display: none" src="~/Content/images/indicator.gif" />
+        </td>
+        <td>
+          <a id="lnkFaireSimulation" href="javascript:faireSimulation()">
+            | Faire la simulation<br />
+          </a>
+          <a id="lnkEffacerSimulation" href="javascript:effacerSimulation()">
+            | Effacer la simulation<br />
+          </a>
+          <a id="lnkVoirSimulations" href="javascript:voirSimulations()">
+            | Voir les simulations<br />
+          </a>
+
+          <a id="lnkRetourFormulaire" href="javascript:retourFormulaire()">
+            | Retour au formulaire de
+            simulation<br />
+          </a>
+          <a id="lnkEnregistrerSimulation" href="javascript:enregistrerSimulation()">
+            | Enregistrer la
+            simulation<br />
+          </a>
+          <a id="lnkTerminerSession" href="javascript:terminerSession()">
+            | Terminer la session<br />
+          </a>
+        </td>
+    </tbody>
+  </table>
+  <hr />
+  <div id="content">
+    @RenderBody()
+  </div>
+</body>
+</html>

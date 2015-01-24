@@ -1,0 +1,44 @@
+﻿@model Pam.Web.Models.IndexModel
+@using (Html.BeginForm("FaireSimulation", "Pam", FormMethod.Post, new { id = "formulaire" }))
+{
+  <table>
+    <thead>
+
+      <!-- la liste déroulante -->
+      <tr>
+        <td>Liste déroulante</td>
+        <td>
+
+          @Html.DropDownListFor(m => m.SS, new SelectList(@Model.Application.EmployesItems, "Text", "Value"))
+          
+      </td>
+    </tr>
+      
+      
+</thead>
+    <tbody>
+      <!-- le champ de saisie texte monoligne -->
+      <tr>
+        <td>HeuresTravaillées</td>
+        <td>
+          @Html.TextBoxFor(m => m.HeuresTravaillées, new { size = "30" })
+          @Html.ValidationMessageFor(m => m.HeuresTravaillées)
+        </td>
+      </tr>
+      <tr>
+        <!-- le champ de saisie texte monoligne -->
+      <tr>
+        <td>JoursTravaillés</td>
+        <td>
+          @Html.TextBoxFor(m => m.JoursTravaillés, new { size = "30" })
+          @Html.ValidationMessageFor(m => m.JoursTravaillés)
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+}
+<div id="simulation" />
+
+
+

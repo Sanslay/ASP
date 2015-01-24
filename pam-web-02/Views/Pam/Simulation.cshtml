@@ -1,0 +1,152 @@
+﻿@model pam_metier.entites.FeuilleSalaire
+<hr />
+<p><span class="info">Informations Employé</span></p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <span class="libellé">Nom</span>
+      </td>
+      <td>
+        <span class="libellé">Prénom</span>
+      </td>
+      <td>
+        <span class="libellé">Adresse</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="valeur">@Model.Employe.Nom</span>
+      </td>
+      <td>
+        <span class="valeur">@Model.Employe.Prenom</span>
+      </td>
+      <td>
+        <span class="valeur">@Model.Employe.Adresse</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="libellé">Ville</span>
+      </td>
+      <td>
+        <span class="libellé">Code Postal</span>
+      </td>
+      <td>
+        <span class="libellé">Indice</span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="valeur">@Model.Employe.Ville</span>
+      </td>
+      <td>
+        <span class="valeur">@Model.Employe.CodePostal</span>
+      </td>
+      <td>
+        <span class="valeur">@Model.Employe.Indemnites.Indice</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<p><span class="info">Informations Cotisations</span></p>
+<table>
+  <tr>
+    <td>
+      <span class="libellé">CsgRds</span>
+    </td>
+    <td>
+      <span class="libellé">Csgd</span>
+    </td>
+    <td>
+      <span class="libellé">Retraite</span>
+    </td>
+    <td>
+      <span class="libellé">Secu</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span class="valeur">@Model.Cotisations.CsgRds</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.Cotisations.Csgd</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.Cotisations.Retraite</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.Cotisations.Secu</span>
+    </td>
+  </tr>
+
+</table>
+<br />
+<p><span class="info">Informations Indemnités</span></p>
+<table>
+  <tr>
+    <td>
+      <span class="libellé">BaseHeure</span>
+    </td>
+    <td>
+      <span class="libellé">EntretienJour</span>
+    </td>
+    <td>
+      <span class="libellé">RepasJour</span>
+    </td>
+    <td>
+      <span class="libellé">CotisationsSociales</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+      <span class="valeur">@Model.Employe.Indemnites.BaseHeure</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.Employe.Indemnites.EntretienJour</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.Employe.Indemnites.RepasJour</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.ElementsSalaire.CotisationsSociales</span>
+    </td>
+  </tr>
+</table>
+<br />
+<p><span class="info">Informations Salaire</span></p>
+<table>
+  <tr>
+    <td>
+      <span class="libellé">SalaireBase</span>
+    </td>
+    <td>
+      <span class="libellé">CotisationsSociales</span>
+    </td>
+    <td>
+      <span class="libellé">IndemnitesEntretien</span>
+    </td>
+    <td>
+      <span class="libellé">IndemnitesRepas</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span class="valeur">@Model.ElementsSalaire.SalaireBase</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.ElementsSalaire.CotisationsSociales</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.ElementsSalaire.IndemnitesEntretien</span>
+    </td>
+    <td>
+      <span class="valeur">@Model.ElementsSalaire.IndemnitesRepas</span>
+    </td>
+
+  </tr>
+</table>
+<br />
+<table></table>

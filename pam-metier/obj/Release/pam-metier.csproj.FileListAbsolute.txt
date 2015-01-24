@@ -1,0 +1,15 @@
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\pam-metier.pdb
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\Common.Logging.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\EntityFramework.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\MySql.Data.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\MySql.Data.Entity.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\pam-dao.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\pam-ef5.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\Spring.Core.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\pam-dao.pdb
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\pam-ef5.pdb
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\obj\Release\pam-metier.csprojResolveAssemblyReference.cache
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\obj\Release\pam-metier.pdb
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\pam-metier.dll.config
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\bin\Release\pam-metier.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier\obj\Release\pam-metier.dll

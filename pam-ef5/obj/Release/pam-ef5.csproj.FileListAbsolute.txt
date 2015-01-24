@@ -1,0 +1,5 @@
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-ef5\bin\Release\pam-ef5.dll.config
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-ef5\bin\Release\pam-ef5.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-ef5\bin\Release\pam-ef5.pdb
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-ef5\obj\Release\pam-ef5.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-ef5\obj\Release\pam-ef5.pdb

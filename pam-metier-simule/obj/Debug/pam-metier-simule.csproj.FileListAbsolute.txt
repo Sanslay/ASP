@@ -1,0 +1,12 @@
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\bin\Debug\pam-metier-simule.exe.config
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\obj\Debug\pam-metier-simule.csprojResolveAssemblyReference.cache
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\bin\Debug\pam-metier-simule.exe
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\bin\Debug\pam-metier-simule.pdb
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\obj\Debug\pam-metier-simule.exe
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\obj\Debug\pam-metier-simule.pdb
+C:\Users\Maxime\Desktop\pam-metier-simule(Terminus_Max)\pam-metier-simule\pam-metier-simule\bin\Debug\pam-metier-simule.dll.config
+C:\Users\Maxime\Desktop\pam-metier-simule(Terminus_Max)\pam-metier-simule\pam-metier-simule\bin\Debug\pam-metier-simule.dll
+C:\Users\Maxime\Desktop\pam-metier-simule(Terminus_Max)\pam-metier-simule\pam-metier-simule\bin\Debug\pam-metier-simule.pdb
+C:\Users\Maxime\Desktop\pam-metier-simule(Terminus_Max)\pam-metier-simule\pam-metier-simule\obj\Debug\pam-metier-simule.csprojResolveAssemblyReference.cache
+C:\Users\Maxime\Desktop\pam-metier-simule(Terminus_Max)\pam-metier-simule\pam-metier-simule\obj\Debug\pam-metier-simule.dll
+C:\Users\Maxime\Desktop\pam-metier-simule(Terminus_Max)\pam-metier-simule\pam-metier-simule\obj\Debug\pam-metier-simule.pdb

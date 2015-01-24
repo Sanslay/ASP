@@ -1,0 +1,5 @@
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\bin\Release\pam-metier-simule.dll.config
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\bin\Release\pam-metier-simule.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\bin\Release\pam-metier-simule.pdb
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\obj\Release\pam-metier-simule.dll
+C:\Users\usrlocal\Desktop\pam-metier-simule\pam-metier-simule\obj\Release\pam-metier-simule.pdb
